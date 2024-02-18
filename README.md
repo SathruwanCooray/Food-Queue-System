@@ -96,7 +96,7 @@ Ensure that JavaFX is properly configured and installed to run the GUI version o
 
 ## License
 
-*- In Progress*
+- This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details.
 
 ## Acknowledgments
 
