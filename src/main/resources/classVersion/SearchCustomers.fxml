@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/17.0.2-ea" xmlns:fx="http://javafx.com/fxml/1" fx:controller="classVersion.HelloController">
+   <children>
+      <TextField fx:id="searchCustomersTextField" layoutX="49.0" layoutY="108.0" prefHeight="31.0" prefWidth="362.0" />
+      <Button fx:id="searchCustomersButton" layoutX="436.0" layoutY="111.0" mnemonicParsing="false" onAction="#searchCustomers" prefHeight="25.0" prefWidth="115.0" text="Search" />
+      <Label fx:id="searchingFirstName" layoutX="251.0" layoutY="139.0" prefHeight="31.0" prefWidth="131.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="93.0" layoutY="139.0" prefHeight="31.0" prefWidth="145.0" text="First Name :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="searchingLastName" layoutX="252.0" layoutY="196.0" prefHeight="31.0" prefWidth="131.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="94.0" layoutY="196.0" prefHeight="31.0" prefWidth="145.0" text="Last Name :">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label fx:id="searchingBurgerCount" layoutX="252.0" layoutY="248.0" prefHeight="31.0" prefWidth="131.0">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label layoutX="94.0" layoutY="248.0" prefHeight="31.0" prefWidth="145.0" text="Burgers">
+         <font>
+            <Font size="15.0" />
+         </font></Label>
+      <Label alignment="CENTER" layoutX="157.0" layoutY="14.0" prefHeight="31.0" prefWidth="263.0" text="Search Customers">
+         <font>
+            <Font name="System Bold" size="30.0" />
+         </font>
+      </Label>
+      <Button fx:id="backButton" layoutX="444.0" layoutY="328.0" mnemonicParsing="false" onAction="#backButtonWorking" prefHeight="31.0" prefWidth="131.0" text="Back" />
+      <Label layoutX="49.0" layoutY="81.0" prefHeight="20.0" prefWidth="270.0" text="Enter the first name of the Customer :">
+         <font>
+            <Font size="14.0" />
+         </font>
+      </Label>
+      <Label layoutX="25.0" layoutY="335.0" prefHeight="17.0" prefWidth="386.0" text="Include Capital Letters if you used Capitalization when giving inputs">
+         <font>
+            <Font name="System Bold" size="12.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

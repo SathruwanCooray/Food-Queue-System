@@ -1,0 +1,21 @@
+************
+  CASHIER
+************
+Data for queue 1: 
+O,X, , , 
+Data for queue 2: 
+O,O,X, , 
+Data for queue 3: 
+X,X,X,X,X
+-Queue 1
+nehan
+hansith
+2
+-Queue 2
+angel
+falcon
+101
+-Queue 2
+senith
+gangara
+4
