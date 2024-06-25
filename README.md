@@ -2,6 +2,10 @@
 
 This is a simple Food Queue System designed to manage customer queues efficiently. The system offers two versions: an array-based version and a class-based version. This project was done as 1st year, second semester programming coursework at IIT institution affiliate with University of Westminster.
 
+## Video Demonstration
+
+https://github.com/SathruwanCooray/Food_Queue_System/assets/150252729/ab543719-2d37-4354-aa93-2688fad73d90
+
 ## Functionality
 
 ### Array Version
